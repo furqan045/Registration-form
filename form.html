@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <h1>Registration Form</h1>
@@ -18,11 +19,11 @@
         <fieldset>
             <label for="rad">Personal Account<input type="radio" name="radio" id="rad"></label>
             <label for="r">Social Account<input type="radio" name="radio" id="r"></label>
-            <label for="check">I Accept Your Terms & Conditions</label>
+            <label for="check"><input type="checkbox" name="" id="check" required> I  Accept Your <a href="@">Terms & Conditions</a></label>
         </fieldset>
         <fieldset>
-            <label for="file"><input type="file" name="" id="file"></label>
-            <label for="age">Enter your age(Years) <input type="number" name="" id="age" min="15" max="120"></label>
+            <label for="file"><input type="file" name="" id="file" required></label>
+            <label for="age">Enter your age(Years) <input type="number" name="" id="age" min="15" max="120" required></label>
             <label for="text"><textarea name="" id="text" cols="30" rows="3"></textarea></label>
         </fieldset>
     </form>
