@@ -33,3 +33,16 @@ input ,textarea{
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
+fieldset:last-of-type {
+    border-bottom: none;
+}
+#sub{
+    display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #382a4b;
+  border-color: white;
+  min-width: 300px;
+}
