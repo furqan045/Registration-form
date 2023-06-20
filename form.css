@@ -19,6 +19,7 @@ form{
     max-width: 500px;
     min-width: 300px;
     margin: 0.5rem auto;
+    border: 2px solid rgb(91, 8, 154);
 }
 fieldset{
     border: none;
@@ -27,6 +28,7 @@ fieldset{
 input ,textarea{
     background-color: rgb(56, 22, 74) ;
     border: 1px solid rgb(23, 4, 38);
+    /* display: block; */
 }
 .inline{
     width: unset;
@@ -42,7 +44,7 @@ fieldset:last-of-type {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #382a4b;
+  background-color: rgb(56, 22, 74);
   border-color: white;
   min-width: 300px;
 }
