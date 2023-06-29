@@ -19,7 +19,7 @@ form{
     max-width: 500px;
     min-width: 300px;
     margin: 0.5rem auto;
-    border: 2px solid rgb(91, 8, 154);
+    border: 2px solid rgb(91, 8, 154); 
 }
 fieldset{
     border: none;
